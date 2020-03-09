@@ -1,0 +1,14 @@
+  
+.ArtistView {
+
+    .listItem {
+      img{
+        height: '100px';
+      }
+      
+      li {
+        text-decoration: 'none';
+        list-style: 'none' 
+      }
+    }
+  }
