@@ -12,3 +12,12 @@
       }
     }
   }
+
+button {
+  background-color: #A53F2B;
+  color: #F0FFCE;
+  border-radius: 5px;
+  padding: 1%;
+  margin-top:2%;
+  margin: 1%;
+}

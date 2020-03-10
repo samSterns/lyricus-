@@ -2,6 +2,7 @@ import React from 'react';
 import useArtist from '../hooks/useArtist';
 import { Link, useParams } from 'react-router-dom';
 import placeholder from '../assets/placeholder.png';
+import styles from '../components/ArtistView.css';
 
 
 const ArtistView = () => {
@@ -30,12 +31,12 @@ const ArtistView = () => {
   });
   return (
     <>
+      <button className={styles.button} value="prev" onClick={({ target }) => pageChange(target.value)}>previous</button>
+      <button value="next" onClick={({ target }) => pageChange(target.value)}>next</button>
+
       <ul>
         {mappedReleases}
       </ul>
-
-      <button value="prev" onClick={({ target }) => pageChange(target.value)}>previous</button>
-      <button value="next" onClick={({ target }) => pageChange(target.value)}>next</button>
     </>
   );
 };

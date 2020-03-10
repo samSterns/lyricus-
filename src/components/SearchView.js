@@ -26,13 +26,13 @@ const SearchView = ({ value }) => {
         <input type='text' value={value} onChange={(event) => setSearch(event.target.value)} placeholder='Artist Name'></input>
         <button>Search</button>
       </form>  
+
+      <button className={styles.pageButton} value="prev" onClick={({ target }) => pageChange(target.value)}>Previous</button>
+      <button className={styles.pageButton} value="next" onClick={({ target }) => pageChange(target.value)}>Next</button>
     
       <ul>
         {artists}
       </ul>
-
-      <button value="prev" onClick={({ target }) => pageChange(target.value)}>previous</button>
-      <button value="next" onClick={({ target }) => pageChange(target.value)}>next</button>
     </>
   );
     
