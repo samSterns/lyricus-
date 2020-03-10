@@ -5,9 +5,14 @@ import useSong from '../hooks/useSong.js';
 const SongView = () => {
   const { song } = useSong();
 
-  return (
-    <p>{song}</p>
+  // const cloud = WordCloud(document.getElementById({ song }), { ['song', 6, {song} ]});
 
+
+  return (
+    <>
+      <p>{song}</p>
+
+    </>
   );
 };
 
