@@ -33,7 +33,7 @@ exports[`AlbumView component renders an Album View 1`] = `
     }
   }
 >
-  <[object Object]
+  <AlbumView
     match={
       Object {
         "params": Object {
