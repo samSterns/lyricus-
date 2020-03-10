@@ -12,7 +12,7 @@ exports[`App component renders App 1`] = `
     path="/artist/:name/:id"
   />
   <Route
-    component={Object {}}
+    component={[Function]}
     path="/album/:name/:id"
   />
   <Route
