@@ -31,8 +31,8 @@ const ArtistView = () => {
   });
   return (
     <>
-      <button className={styles.button} value="prev" onClick={({ target }) => pageChange(target.value)}>previous</button>
-      <button value="next" onClick={({ target }) => pageChange(target.value)}>next</button>
+      <button className={styles.button} value="prev" onClick={({ target }) => pageChange(target.value)}>Previous</button>
+      <button value="next" onClick={({ target }) => pageChange(target.value)}>Next</button>
 
       <ul>
         {mappedReleases}
