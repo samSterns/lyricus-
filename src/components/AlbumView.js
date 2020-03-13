@@ -16,9 +16,12 @@ const AlbumView = () => {
     );
   });
   return (
-    <ul>
-      {mappedAlbum}
-    </ul>
+    <>
+      <h1>Pick a Song for the Lyrics</h1>
+      <ul>
+        {mappedAlbum}
+      </ul>
+    </>
   );
 };
 

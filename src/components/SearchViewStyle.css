@@ -11,6 +11,7 @@ Form {
         width: 25%;
         line-height: 30px;
         font: Roboto;
+        font: 100%;
         color: #080C35;
     }
 
@@ -20,13 +21,21 @@ Form {
         border-radius: 5px;
         padding: 1%;
         margin: 1%;
+        font-size: 100%;
     }
     
 }
 
-h3 {
+h1 {
     color: #rgb(63,61,85);
-}
+    border: solid 2px black;
+    border-radius: 5%;
+    background-color: #A53F2B;
+    opacity: .3;
+    margin: 2% 45% 2% 5%;
+    font: Roboto;
+    text-align: center;
+  }
 
 body {
     background-image: url('/src/assets/Music.png');
@@ -45,6 +54,7 @@ body {
         padding: 1%;
         margin-top:2%;
         margin: 1%;
+        font-size: 100%;
     
   
 }
