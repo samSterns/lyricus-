@@ -37,8 +37,7 @@ export default function IconBreadcrumbs() {
         color="inherit"
         href="/getting-started/installation/"
         onClick={handleClick}
-        className={classes.link}
-      >
+        className={classes.link} >
         <AlbumIcon className={classes.icon} />
         Album
       </Link>

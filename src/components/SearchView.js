@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import useSearch from '../hooks/useSearch';
 import { Link } from 'react-router-dom';
 import styles from '../components/SearchViewStyle.css';
-import Header from '../components/Header';
+// import Header from '../components/Header';
 
 const SearchView = ({ value }) => {
   
@@ -23,7 +23,8 @@ const SearchView = ({ value }) => {
 
   return (
     <>
-       <Header />
+      
+      <h3>Search for Any Artist to Learn Lyrics</h3>
       <form className={styles.Form} onSubmit={() => search(searchTerm)} >
         <input type='text' value={value} onChange={(event) => setSearch(event.target.value)} placeholder='Artist Name'></input>
         <button>Search</button>
