@@ -8,13 +8,11 @@
     line-height: 22px;
     font: Roboto;
     border: 1px solid black;
-    border-radius: 5%;
+    border-radius: 5px;
     box-shadow: 12px 12px 2px 1px #F2F2F2;
-background-color: rgba(0, 0, 0, 0.8);
-    /* opacity: .1; */
+    background-color: #A53F2B;
+    opacity: .8;
 }
-
-
 
 p {
     position: relative;
@@ -28,4 +26,3 @@ p {
     color: #F2F2F2;
     padding: 5%;
 }
-

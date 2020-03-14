@@ -47,14 +47,16 @@ body {
 }
 
 .pageButton {
- 
-        background-color: #A53F2B;
-        color: #F0FFCE;
-        border-radius: 5px;
-        padding: 1%;
-        margin-top:2%;
-        margin: 1%;
-        font-size: 100%;
+    background-color: #A53F2B;
+    color: #F0FFCE;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top:2%;
+    margin: 1%;
+    font-size: 100%;
+    position: relative;
+    margin-top: 100%;
+justify-content: center;   
     
   
 }
