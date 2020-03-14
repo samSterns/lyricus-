@@ -20,12 +20,14 @@ const ArtistView = () => {
   const mappedReleases = releases.map(({ id, title }) => {
     return (
       <>
-        <li key={id}>
-          <Link to={`/album/${name}/${id}`}>
-            <img style={albumArtStyle} src={`http://coverartarchive.org/release/${id}/front`} onError={(event) => addDefaultSrc(event)}/>
-            <h3>{title}</h3>
-          </Link>
-        </li>
+        <div className={styles.ArtistView}>
+          <li key={id}>
+            <Link to={`/album/${name}/${id}`}>
+              
+              <h3><img style={albumArtStyle} src={`http://coverartarchive.org/release/${id}/front`} onError={(event) => addDefaultSrc(event)}/>{title}</h3>
+            </Link>
+          </li>
+        </div>
       </>
     );
   });

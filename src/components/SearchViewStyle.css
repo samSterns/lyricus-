@@ -5,7 +5,6 @@ Form {
     font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
-
     input {
         border-radius: 5px;
         width: 25%;
@@ -23,7 +22,6 @@ Form {
         margin: 1%;
         font-size: 100%;
     }
-    
 }
 
 h1 {
@@ -32,9 +30,10 @@ h1 {
     border-radius: 5%;
     background-color: #A53F2B;
     opacity: .3;
-    margin: 2% 45% 2% 5%;
+    margin: 2% 50% 2% 10%;
     font: Roboto;
     text-align: center;
+    width: auto;
   }
 
 body {
@@ -56,29 +55,18 @@ body {
     font-size: 100%;
     position: relative;
     margin-top: 100%;
-justify-content: center;   
-    
-  
+    justify-content: center;   
 }
 
-li, h3 {
-    list-style: none;
-    padding: 3%;
-    
-}
 
 a {
     text-decoration: none;
     color: #f06585;
-    /* color: #343859; */
-    /* color: #080C35; #AA1155 # 343859 #FoFFCE #A53F2B #880044 */
 }
 a:hover {
      color: #080C35;
-    /* color: #A53F2B; */
 }
 
 a:visited {
     color: #4C230A;
-    
 }

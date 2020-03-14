@@ -31,7 +31,7 @@ export default function IconBreadcrumbs() {
 
   return (
     <Breadcrumbs className={styles.Breadcrumbs} aria-label="breadcrumb">
-      <Link color="inherit" href="/" onClick={handleClick} className={classes.link}>
+      <Link color="inherit" href="/artist/:name/:id" onClick={handleClick} className={classes.link}>
         <HomeIcon className={classes.icon} />
         Artist Search
       </Link>
