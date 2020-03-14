@@ -37,7 +37,7 @@ export default function IconBreadcrumbs() {
       </Link>
       <Link
         color="inherit"
-        href="/"
+        href="https://material-ui.com/components/links/#links"
         onClick={handleClick}
         className={classes.link} >
         <AlbumIcon className={classes.icon} />
