@@ -24,7 +24,7 @@ const SearchView = ({ value }) => {
   return (
     <>
       
-      <h1>Search for Any Artist to Learn Lyrics</h1>
+      <h1>Search Musical Artist to Learn Lyrics</h1>
       <form className={styles.Form} onSubmit={() => search(searchTerm)} >
         <input type='text' value={value} onChange={(event) => setSearch(event.target.value)} placeholder='Artist Name'></input>
         <button>Search</button>
