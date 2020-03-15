@@ -22,6 +22,7 @@ const useStyles = makeStyles(theme => ({
 
 function handleClick(event) {
   event.preventDefault();
+  window.location.href = 'http://localhost:7890/';
 }
 
 export default function IconBreadcrumbs() {
@@ -31,34 +32,27 @@ export default function IconBreadcrumbs() {
 
   return (
     <Breadcrumbs className={styles.Breadcrumbs} aria-label="breadcrumb">
-      <Link color="inherit" href="/artist/:name/:id" onClick={handleClick} className={classes.link}>
+      <Link alt="Home Icon. Click here to go Home"color="inherit" href="http://localhost:7890/" onClick={handleClick} className={classes.link}>
         <HomeIcon className={classes.icon} />
         Artist Search
       </Link>
-      <Link
+      <div
         color="inherit"
-        href="https://material-ui.com/components/links/#links"
-        onClick={handleClick}
-        className={classes.link} >
+        alt="Album Icon." >
         <AlbumIcon className={classes.icon} />
         Album
-      </Link>
-      <Link
-        color="inherit"
-        href="/getting-started/installation/"
-        onClick={handleClick}
-        className={classes.link} >
+      </div>
+      <div
+        alt="Song Icon."
+        color="inherit" >
         <MusicNoteIcon className={classes.icon} />
         Songs
-      </Link>
-      <Link
-        color="inherit"
-        href="/getting-started/installation/"
-        onClick={handleClick}
-        className={classes.link} >
+      </div>
+      <div
+        alt="Lyrics Icon." >
         <QueueMusicIcon className={classes.icon} />
         Lyrics
-      </Link>
+      </div>
     </Breadcrumbs>
   );
 }
