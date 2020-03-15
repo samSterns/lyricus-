@@ -9,6 +9,7 @@ const useSong = () => {
   useEffect(() => {  
     getSong(name, title)
       .then(res => setSong(res.lyrics));
+    
   }, []);
 
   return { song };

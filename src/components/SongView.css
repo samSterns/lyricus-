@@ -1,0 +1,28 @@
+.Lyrics {
+    margin: 5%;
+    margin-right: 20%;
+    padding: 5%;
+    height: auto;
+    width: auto;
+    font-size: 100%;
+    line-height: 22px;
+    font: Roboto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px #F2F2F2;
+    background-color: #A53F2B;
+    opacity: .8;
+}
+
+p {
+    position: relative;
+    font-size: 100%;
+    line-height: 24px;
+    text-align: center;
+    font: Roboto;
+    color: black;
+    top: 4.7em;
+    opacity: .9;
+    color: #F2F2F2;
+    padding: 5%;
+}

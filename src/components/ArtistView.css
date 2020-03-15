@@ -1,17 +1,17 @@
-  
-.ArtistView {
 
-    .listItem {
-      img{
-        height: '100px';
-      }
-      
-      li {
-        text-decoration: 'none';
-        list-style: 'none' 
-      }
-    }
-  }
+div {
+  width: auto;
+}
+
+li {
+  text-decoration: none;
+  list-style: none; 
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
 
 button {
   background-color: #A53F2B;
@@ -20,4 +20,14 @@ button {
   padding: 1%;
   margin-top:2%;
   margin: 1%;
+}
+
+h3 {
+  color: #rgb(63,61,85);
+ 
+
+ width: auto;
+  margin: 2% 45% 2% 5%;
+  font: Roboto;
+  text-align: center;
 }
