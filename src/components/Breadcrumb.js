@@ -1,6 +1,5 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Link from '@material-ui/core/Link';
 import HomeIcon from '@material-ui/icons/Home';
@@ -27,8 +26,6 @@ function handleClick(event) {
 
 export default function IconBreadcrumbs() {
   const classes = useStyles();
-
-  
 
   return (
     <Breadcrumbs className={styles.Breadcrumbs} aria-label="breadcrumb">

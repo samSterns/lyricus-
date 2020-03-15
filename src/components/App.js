@@ -1,4 +1,3 @@
-  
 import React from 'react';
 import SearchView from './SearchView';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -12,7 +11,6 @@ export default function App() {
     <>
       <Header />
       <Router>
-    
         <Route exact path='/' component={SearchView} />
         <Route path='/artist/:name/:id' component={ArtistView} />
         <Route path='/album/:name/:id' component={AlbumView} />
