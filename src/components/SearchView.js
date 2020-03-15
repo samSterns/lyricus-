@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import useSearch from '../hooks/useSearch';
 import { Link } from 'react-router-dom';
 import styles from '../components/SearchViewStyle.css';
+// import Header from '../components/Header';
 
 const SearchView = ({ value }) => {
   
@@ -22,17 +23,18 @@ const SearchView = ({ value }) => {
 
   return (
     <>
+      
+      <h1>Search Musical Artist to Learn Lyrics</h1>
       <form className={styles.Form} onSubmit={() => search(searchTerm)} >
         <input type='text' value={value} onChange={(event) => setSearch(event.target.value)} placeholder='Artist Name'></input>
         <button>Search</button>
       </form>  
 
-      <button className={styles.pageButton} value="prev" onClick={({ target }) => pageChange(target.value)}>Previous</button>
-      <button className={styles.pageButton} value="next" onClick={({ target }) => pageChange(target.value)}>Next</button>
-    
       <ul>
         {artists}
       </ul>
+      <button className={styles.pageButton} value="prev" onClick={({ target }) => pageChange(target.value)}>Previous</button>
+      <button className={styles.pageButton} value="next" onClick={({ target }) => pageChange(target.value)}>Next</button>
     </>
   );
     

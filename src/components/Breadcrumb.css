@@ -1,0 +1,12 @@
+.Breadcrumbs {
+    width: auto;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+div {
+    text-decoration: none;
+}
