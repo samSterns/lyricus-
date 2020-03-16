@@ -29,7 +29,7 @@ export default function IconBreadcrumbs() {
 
   return (
     <Breadcrumbs className={styles.Breadcrumbs} aria-label="breadcrumb">
-      <Link alt="Home Icon. Click here to go Home"color="inherit" href="http://localhost:7890/" onClick={handleClick} className={classes.link}>
+      <Link alt="Home Icon. Click here to go Home"color="inherit" href="http://local:7890/" onClick={handleClick} className={classes.link}>
         <HomeIcon className={classes.icon} />
         Artist Search
       </Link>
