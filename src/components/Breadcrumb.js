@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme => ({
 
 function handleClick(event) {
   event.preventDefault();
-  window.location.href = 'http://localhost:7890/';
+  window.location.href = 'https://romantic-lalande-b6c8a5.netlify.com/';
 }
 
 export default function IconBreadcrumbs() {
